@@ -35,6 +35,34 @@ src="https://www.facebook.com/tr?id=1682496269439391&ev=PageView&noscript=1"/></
 <!-- ==================== FINAL META PIXEL ==================== -->
 
 <style>
+/*!
+Wizard-JS v2.1.1 — https://github.com/AdrianVillamayor/Wizard-JS
+MIT License
+
+Copyright (c) 2021 Adrián Villamayor
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+.wizard .wizard-nav{flex-wrap:wrap;transition:transform .3s ease-in,opacity .3s ease-in;display:flex}.wizard .wizard-nav.tabs .wizard-step{text-align:center;border-bottom:1px solid #dee2e6;flex-grow:1;flex-basis:0;max-width:100%;padding:.5rem 1rem;font-size:14px;position:relative}.wizard .wizard-nav.tabs .wizard-step.active{border:1px solid #dee2e6;border-bottom:0;border-top-left-radius:.25rem;border-top-right-radius:.25rem}.wizard .wizard-nav.progress{border-radius:.25rem;height:auto;font-size:1rem;line-height:1.5;overflow:auto}.wizard .wizard-nav.progress .wizard-step{color:#fff;text-align:center;background-color:#19d184;border:1px solid #dee2e6;flex-grow:1;flex-basis:0;max-width:100%;padding:.5rem 1rem;font-size:14px;transition:background-color .3s ease-in,color .3s ease-in;position:relative}.wizard .wizard-nav.progress .wizard-step.active~.wizard-step{color:#000;background-color:#fff}.wizard .wizard-nav.dots .wizard-step{text-align:center;flex-grow:1;flex-basis:0;max-width:100%;font-size:14px;position:relative}.wizard .wizard-nav.dots .wizard-step span{cursor:pointer}.wizard .wizard-nav.dots .wizard-step:last-child:before,.wizard .wizard-nav.dots .wizard-step:last-child:after{display:none}.wizard .wizard-nav.dots .wizard-step .dot{z-index:3;width:8px;height:8px;transition:background-color .5s ease-in-out,box-shadow .5s ease-in-out,transform .2s ease-in;transition-delay:calc(var(--wizard-step-index,0) * .1s);background:#198fd1;border-radius:50%;position:absolute;top:-20px;left:50%;box-shadow:0 0 0 2px #fff}.wizard .wizard-nav.dots .wizard-step:before,.wizard .wizard-nav.dots .wizard-step:after{content:"";width:100%;height:2px;transition:background-color .2s ease-in,width .2s ease-in,height .2s ease-in;transition-delay:calc(var(--wizard-step-index,0) * .1s);position:absolute;top:-17px;left:50%}.wizard .wizard-nav.dots .wizard-step:before{z-index:2;background:#19d184}.wizard .wizard-nav.dots .wizard-step:after{z-index:1;background:#dee2e6}.wizard .wizard-nav.dots .wizard-step.active~.wizard-step .dot,.wizard .wizard-nav.dots .wizard-step.active~.wizard-step:before,.wizard .wizard-nav.dots .wizard-step.active~.wizard-step:after{background:#dee2e6}.wizard .wizard-nav.dots .wizard-step.active~.wizard-step:before{width:0}.wizard .wizard-nav.dots .wizard-step.active .dot{background-color:#198fd1;box-shadow:0 0 0 3px rgba(25,143,209,.2)}.wizard .wizard-nav.dots .wizard-step.active:before,.wizard .wizard-nav.dots .wizard-step.active:after{background:#dee2e6}.wizard .wizard-nav .wizard-step{cursor:pointer}.wizard .wizard-nav .wizard-step.nav-buttons,.wizard .wizard-nav .wizard-step.nav-buttons span{cursor:default}.wizard .wizard-content{padding:3rem 0;transition:opacity .3s ease-in,transform .3s ease-in}.wizard .wizard-content .wizard-step{transition:opacity .3s ease-in,transform .3s ease-in;display:none}.wizard .wizard-content .wizard-step.active{display:block}.wizard .wizard-buttons{justify-content:flex-end;align-items:center;transition:opacity .3s ease-in,transform .3s ease-in;display:flex}.wizard .wizard-buttons .wizard-btn{color:#fff;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;user-select:none;background-color:#198fd1;border:1px solid transparent;border-radius:.15rem;margin:0 10px;padding:.375rem .75rem;font-weight:400;line-height:1.5;text-decoration:none;transition:background-color .3s ease-in,opacity .3s ease-in;display:inline-block}.wizard .wizard-buttons .wizard-btn:hover{background-color:rgba(25,143,209,.8)}.wizard .wizard-buttons .wizard-btn:disabled{pointer-events:none;opacity:.65;cursor:not-allowed!important}.wizard{transition:opacity .3s ease-in,transform .3s ease-in;display:none}.wizard.vertical{flex-flow:wrap;width:100%;transition:opacity .3s ease-in,transform .3s ease-in;display:flex}.wizard.vertical .wizard-nav{flex-direction:column;flex:1;padding:0 3rem;transition:opacity .3s ease-in,transform .3s ease-in}@media screen and (min-width:1024px){.wizard.vertical .wizard-nav{max-width:250px}}@media screen and (max-width:767px){.wizard.vertical .wizard-nav .wizard-step{text-align:left;padding-left:1rem}}.wizard.vertical .wizard-nav .wizard-step:before,.wizard.vertical .wizard-nav .wizard-step:after{width:2px;height:100%;top:7px;left:-12px}.wizard.vertical .wizard-nav .wizard-step .dot{top:7px;left:-15px}.wizard.vertical .wizard-nav .wizard-step.active~.wizard-step:before{height:0}.wizard.vertical .wizard-content{width:75%;padding:0 0 3rem}@media screen and (max-width:767px){.wizard.vertical .wizard-content{padding:2rem 0}}.wizard.vertical .wizard-buttons{flex-basis:100%}.highlight-error{outline:1px solid tomato}
+</style>
+
+<style>
 :root{
   /* ---- Paletă: teal→albastru pe fundal alb ---- */
   --bg:#ffffff;
@@ -124,6 +152,39 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);
 .form-mini{font-size:12px;color:var(--muted);margin-top:12px;text-align:center}
 .consent{display:flex;gap:9px;align-items:flex-start;font-size:12.5px;color:var(--muted);margin:6px 0 14px}
 .consent input{width:auto;margin-top:3px}
+
+/* ---------- Configurator ofertă (3 pași, Wizard-JS) ---------- */
+.quiz .wizard-nav.progress{border:1px solid var(--line-strong);border-radius:30px;overflow:hidden;flex-wrap:nowrap}
+.quiz .wizard-nav.progress .wizard-step{background:var(--grad);color:#04222b;border:0;padding:6px 8px;
+  font-size:12px;font-weight:700;letter-spacing:.02em}
+.quiz .wizard-nav.progress .wizard-step.active~.wizard-step{background:#fff;color:var(--muted)}
+.quiz .wizard-nav .dot{display:none}
+.quiz .wizard-content{padding:16px 0 4px;min-height:262px}
+.q-title{font-family:'Playfair Display',Georgia,serif;font-size:19px;color:var(--ink);margin-bottom:12px;line-height:1.25}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+.choice{position:relative;display:flex;align-items:center;gap:9px;padding:11px 12px;border:1px solid var(--line-strong);
+  border-radius:10px;background:#fbfcfd;cursor:pointer;font-size:14px;font-weight:600;color:var(--ink);line-height:1.3;transition:.15s}
+.choice:hover{border-color:var(--green)}
+.choice input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}
+.choice .ci{font-size:20px;flex:0 0 auto}
+.choice small{display:block;font-weight:400;color:var(--muted);font-size:12px}
+.choice:has(input:checked){border-color:var(--green-deep);background:var(--green-soft);box-shadow:0 0 0 2px rgba(47,143,208,.22)}
+.choice:has(input:focus-visible){outline:2px solid var(--green-deep);outline-offset:2px}
+.q-note{margin-top:12px;background:var(--green-soft);border-radius:10px;padding:10px 12px;font-size:13px;color:var(--ink-2)}
+.q-error{display:none;color:#c0392b;font-size:13px;font-weight:600;margin-top:10px}
+.q-error.show{display:block}
+.quiz.wizard .wizard-buttons{justify-content:space-between;gap:10px;margin-top:10px}
+.quiz.wizard .wizard-buttons .wizard-btn{margin:0;border-radius:10px;font-weight:700;line-height:1.2;padding:14px 20px;font-size:15.5px}
+.quiz.wizard .wizard-buttons .wizard-btn.prev{background:#fff;color:var(--ink);border:1px solid var(--line-strong)}
+.quiz.wizard .wizard-buttons .wizard-btn.prev:disabled{visibility:hidden}
+.quiz.wizard .wizard-buttons .wizard-btn.next,
+.quiz.wizard .wizard-buttons .wizard-btn.finish{background:var(--grad);color:#04222b;box-shadow:0 10px 24px rgba(57,208,216,.30)}
+.quiz.wizard .wizard-buttons .wizard-btn.next:disabled{display:none}
+.quiz.wizard .wizard-buttons .wizard-btn.finish{flex:1}
+.quiz .highlight-error{outline:0;border-color:#c0392b!important}
+.quiz-alt{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);text-align:center;font-size:14px;color:var(--muted)}
+.quiz-alt a{color:var(--green-deep);font-weight:700}
+@media(max-width:380px){.choice{padding:10px 9px;font-size:13px}.choice .ci{font-size:17px}}
 
 /* ---------- Demo toggle ---------- */
 .demo-glass{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line-strong);
@@ -248,7 +309,7 @@ footer{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-s
 /* ---------- Sticky mobile CTA ---------- */
 .mobile-bar{position:fixed;bottom:0;left:0;right:0;z-index:60;display:none;gap:10px;padding:11px 14px;
   background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
-.mobile-bar .btn{flex:1;padding:13px}
+.mobile-bar .btn{flex:1;padding:13px 6px;font-size:14.5px;justify-content:center}
 @media(max-width:760px){.mobile-bar{display:flex}body{padding-bottom:72px}}
 
 /* ---------- Thank-you overlay (înlocuiește pagina de mulțumire) ---------- */
@@ -309,59 +370,8 @@ footer{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-s
     <!-- FORMULAR 1 (B2B - hero) -->
     <div class="form-card" id="oferta">
       <h3>Cere ofertă personalizată</h3>
-      <p class="sub">Îți răspundem în maxim 24h cu preț estimativ și soluție pentru proiectul tău.</p>
-      <form action="https://formsubmit.co/ajax/office@glazera.ro" method="POST" class="lead-form" data-form="B2B - Hero">
-        <input type="hidden" name="form_type" value="B2B - Hero">
-        <input type="hidden" name="_subject" value="Lead nou Glazera [B2B - Hero]">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
-        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
-        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off">
-        <div class="field">
-          <label>Nume și prenume *</label>
-          <input type="text" name="nume" required placeholder="Ex: Andrei Popescu">
-        </div>
-        <div class="row-2">
-          <div class="field">
-            <label>Telefon *</label>
-            <input type="tel" name="telefon" required placeholder="07xx xxx xxx">
-          </div>
-          <div class="field">
-            <label>Email *</label>
-            <input type="email" name="email" required placeholder="nume@firma.ro">
-          </div>
-        </div>
-        <div class="row-2">
-          <div class="field">
-            <label>Companie</label>
-            <input type="text" name="companie" placeholder="Numele firmei">
-          </div>
-          <div class="field">
-            <label>Tip proiect</label>
-            <select name="tip_proiect">
-              <option value="">Alege...</option>
-              <option>Birouri / Co-working</option>
-              <option>Hotel / Pensiune / Spa</option>
-              <option>Clinică / Spital</option>
-              <option>Retail / Showroom</option>
-              <option>Construcții / Amenajări</option>
-              <option>Dezvoltator / Rezidențial</option>
-              <option>Locuință personală</option>
-              <option>Altele</option>
-            </select>
-          </div>
-        </div>
-        <div class="field">
-          <label>Suprafață estimată — opțional</label>
-          <input type="text" name="suprafata" placeholder="Ex: 25 mp / 8 geamuri">
-        </div>
-        <label class="consent">
-          <input type="checkbox" required>
-          <span>Sunt de acord ca datele mele să fie folosite pentru a fi contactat cu o ofertă.</span>
-        </label>
-        <button type="submit" class="btn btn-primary btn-block btn-lg">Trimite cererea →</button>
-        <p class="form-mini">🔒 Datele tale sunt confidențiale. Zero spam.</p>
-      </form>
+      <p class="sub">3 întrebări rapide, sub 30 de secunde. Îți răspundem în maxim 24h cu preț estimativ.</p>
+      <div class="quiz-mount" data-form="B2B - Hero"></div>
     </div>
   </div>
 </section>
@@ -446,7 +456,7 @@ footer{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-s
       <h2>De la cerere la sticlă inteligentă în 4 pași</h2>
     </div>
     <div class="steps">
-      <div class="step"><h3>Cererea ta</h3><p>Completezi formularul cu detaliile proiectului. Te contactăm în maxim 24h.</p></div>
+      <div class="step"><h3>Cererea ta</h3><p>Răspunzi la 3 întrebări rapide sau ne scrii pe WhatsApp. Te contactăm în maxim 24h.</p></div>
       <div class="step"><h3>Măsurători + ofertă</h3><p>Evaluăm suprafețele și primești o ofertă clară, fără costuri ascunse.</p></div>
       <div class="step"><h3>Montaj profesional</h3><p>Aplicăm folia pe sticla existentă, rapid și curat, cu întreruperi minime.</p></div>
       <div class="step"><h3>Predare + garanție</h3><p>Testăm împreună, îți explicăm controlul și primești garanție 2 ani.</p></div>
@@ -547,9 +557,10 @@ footer{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-s
     <div>
       <span class="eyebrow">Ultimul pas</span>
       <h2>Spune-ne despre proiectul tău</h2>
-      <p class="lead">Completează formularul și un consultant GLAZERA te contactează cu o ofertă personalizată. Răspundem în maxim 24h în zilele lucrătoare.</p>
+      <p class="lead">Răspunde la 3 întrebări rapide și un consultant GLAZERA te contactează cu o ofertă personalizată. Răspundem în maxim 24h în zilele lucrătoare.</p>
       <div style="margin-top:22px">
         <p class="contact-line">📞 <b>Telefon:</b> <a href="tel:+40742236822">0742 236 822</a> · <a href="tel:+40750471722">0750 471 722</a></p>
+        <p class="contact-line">💬 <b>WhatsApp:</b> <a href="https://wa.me/40742236822?text=B%C4%83n%C4%83%20ziua!%20A%C8%99%20dori%20o%20ofert%C4%83%20pentru%20folie%20inteligent%C4%83%20GLAZERA." target="_blank" rel="noopener">0742 236 822</a></p>
         <p class="contact-line">✉️ <b>Email:</b> <a href="mailto:office@glazera.ro">office@glazera.ro</a></p>
         <p class="contact-line">🌐 <b>Web:</b> glazera.ro</p>
       </div>
@@ -557,59 +568,8 @@ footer{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-s
 
     <div class="form-card">
       <h3>Cerere ofertă</h3>
-      <p class="sub">Completează în 30 de secunde.</p>
-      <form action="https://formsubmit.co/ajax/office@glazera.ro" method="POST" class="lead-form" data-form="B2B - Final">
-        <input type="hidden" name="form_type" value="B2B - Final">
-        <input type="hidden" name="_subject" value="Lead nou Glazera [B2B - Final]">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
-        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
-        <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off">
-        <div class="field">
-          <label>Nume și prenume *</label>
-          <input type="text" name="nume" required placeholder="Ex: Maria Ionescu">
-        </div>
-        <div class="row-2">
-          <div class="field">
-            <label>Telefon *</label>
-            <input type="tel" name="telefon" required placeholder="07xx xxx xxx">
-          </div>
-          <div class="field">
-            <label>Email *</label>
-            <input type="email" name="email" required placeholder="nume@firma.ro">
-          </div>
-        </div>
-        <div class="row-2">
-          <div class="field">
-            <label>Companie</label>
-            <input type="text" name="companie" placeholder="Numele firmei">
-          </div>
-          <div class="field">
-            <label>Tip proiect</label>
-            <select name="tip_proiect">
-              <option value="">Alege...</option>
-              <option>Birouri / Co-working</option>
-              <option>Hotel / Pensiune / Spa</option>
-              <option>Clinică / Spital</option>
-              <option>Retail / Showroom</option>
-              <option>Construcții / Amenajări</option>
-              <option>Dezvoltator / Rezidențial</option>
-              <option>Locuință personală</option>
-              <option>Altele</option>
-            </select>
-          </div>
-        </div>
-        <div class="field">
-          <label>Detalii proiect — opțional</label>
-          <textarea name="mesaj" placeholder="Suprafață aproximativă, oraș, termen dorit..."></textarea>
-        </div>
-        <label class="consent">
-          <input type="checkbox" required>
-          <span>Sunt de acord ca datele mele să fie folosite pentru a fi contactat cu o ofertă.</span>
-        </label>
-        <button type="submit" class="btn btn-primary btn-block btn-lg">Trimite cererea →</button>
-        <p class="form-mini">🔒 Confidențial · Fără spam · Răspuns în 24h</p>
-      </form>
+      <p class="sub">3 întrebări rapide · sub 30 de secunde.</p>
+      <div class="quiz-mount" data-form="B2B - Final"></div>
     </div>
   </div>
 </section>
@@ -644,8 +604,63 @@ footer{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-s
 <!-- ==================== STICKY MOBILE CTA ==================== -->
 <div class="mobile-bar">
   <a class="btn btn-ghost" href="tel:+40742236822">📞 Sună</a>
+  <a class="btn btn-ghost" href="https://wa.me/40742236822?text=B%C4%83n%C4%83%20ziua!%20A%C8%99%20dori%20o%20ofert%C4%83%20pentru%20folie%20inteligent%C4%83%20GLAZERA." target="_blank" rel="noopener">💬 WhatsApp</a>
   <a class="btn btn-primary" href="#oferta">Cere ofertă</a>
 </div>
+
+<!-- ==================== CONFIGURATOR OFERTĂ (șablon comun pentru ambele formulare) ==================== -->
+<template id="tplQuiz">
+  <form action="https://formsubmit.co/ajax/office@glazera.ro" method="POST" class="lead-form quiz" novalidate>
+    <input type="hidden" name="form_type" value="">
+    <input type="hidden" name="_subject" value="">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off">
+    <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off">
+    <aside class="wizard-content">
+      <div class="wizard-step" data-wz-title="1 · Spațiu">
+        <p class="q-title">Ce spațiu vrei să transformi?</p>
+        <div class="choices">
+          <label class="choice"><input type="radio" name="tip_proiect" value="Birouri / Co-working" required><span class="ci">🏢</span>Birouri / Co-working</label>
+          <label class="choice"><input type="radio" name="tip_proiect" value="Hotel / Pensiune / Spa" required><span class="ci">🏨</span>Hotel / Pensiune / Spa</label>
+          <label class="choice"><input type="radio" name="tip_proiect" value="Clinică / Spital" required><span class="ci">🏥</span>Clinică / Spital</label>
+          <label class="choice"><input type="radio" name="tip_proiect" value="Retail / Showroom" required><span class="ci">🛍️</span>Retail / Showroom</label>
+          <label class="choice"><input type="radio" name="tip_proiect" value="Construcții / Amenajări" required><span class="ci">🏗️</span>Construcții / Amenajări</label>
+          <label class="choice"><input type="radio" name="tip_proiect" value="Dezvoltator / Rezidențial" required><span class="ci">🚪</span>Dezvoltator / Rezidențial</label>
+          <label class="choice"><input type="radio" name="tip_proiect" value="Locuință personală" required><span class="ci">🏡</span>Locuință personală</label>
+          <label class="choice"><input type="radio" name="tip_proiect" value="Altele" required><span class="ci">✨</span>Altele</label>
+        </div>
+        <p class="q-error">Alege tipul de spațiu ca să continui.</p>
+      </div>
+      <div class="wizard-step" data-wz-title="2 · Suprafață">
+        <p class="q-title">Cam câtă sticlă vrei să acoperi?</p>
+        <div class="choices">
+          <label class="choice"><input type="radio" name="suprafata" value="Sub 5 mp" required><span>Sub 5 mp<small>1–2 geamuri sau o ușă</small></span></label>
+          <label class="choice"><input type="radio" name="suprafata" value="5–20 mp" required><span>5–20 mp<small>o cameră, o sală</small></span></label>
+          <label class="choice"><input type="radio" name="suprafata" value="20–100 mp" required><span>20–100 mp<small>mai multe încăperi</small></span></label>
+          <label class="choice"><input type="radio" name="suprafata" value="Peste 100 mp" required><span>Peste 100 mp<small>proiect la scară</small></span></label>
+          <label class="choice" style="grid-column:1/-1"><input type="radio" name="suprafata" value="Nu știu încă" required><span>Nu știu încă<small>facem noi măsurătorile</small></span></label>
+        </div>
+        <p class="q-note">💡 Primești <b>preț estimativ în maxim 24h</b>. Consultanță gratuită, fără obligații.</p>
+        <p class="q-error">Alege o suprafață aproximativă ca să continui.</p>
+      </div>
+      <div class="wizard-step" data-wz-title="3 · Contact">
+        <p class="q-title">Unde te contactăm cu oferta?</p>
+        <div class="field">
+          <label>Telefon *</label>
+          <input type="tel" name="telefon" required inputmode="tel" autocomplete="tel" pattern="[0-9+ .\(\)\-]{10,}" placeholder="07xx xxx xxx">
+        </div>
+        <div class="field">
+          <label>Nume — opțional</label>
+          <input type="text" name="nume" autocomplete="name" placeholder="Ex: Andrei Popescu">
+        </div>
+        <p class="form-mini" style="text-align:left;margin-top:2px">🔒 Folosim numărul doar ca să te contactăm cu oferta. Zero spam.</p>
+        <p class="q-error">Introdu un număr de telefon valid (minim 10 cifre).</p>
+      </div>
+    </aside>
+  </form>
+  <p class="quiz-alt">Preferi să scrii? <a class="wa-quiz" href="https://wa.me/40742236822" target="_blank" rel="noopener">💬 Cere oferta pe WhatsApp</a></p>
+</template>
 
 <!-- ==================== OVERLAY MULȚUMIM (apare după submit) ==================== -->
 <div class="ty-overlay" id="tyOverlay" role="dialog" aria-modal="true">
@@ -659,10 +674,37 @@ footer{border-top:1px solid var(--line);padding:40px 0;color:var(--muted);font-s
       <a class="btn btn-primary" href="#" id="tyClose">← Înapoi la site</a>
       <a class="btn btn-ghost" href="tel:+40742236822">📞 0742 236 822</a>
     </div>
-    <p style="font-size:13px;margin-top:20px;color:var(--muted)">Verifică și folderul Spam/Promoții — uneori răspunsul ajunge acolo.</p>
+    <p style="font-size:13px;margin-top:20px;color:var(--muted)">Te sunăm de pe 0742 236 822 sau 0750 471 722 — salvează numărul ca să ne recunoști.</p>
   </div>
 </div>
 
+<script>
+/*!
+Wizard-JS v2.1.1 — https://github.com/AdrianVillamayor/Wizard-JS
+MIT License
+
+Copyright (c) 2021 Adrián Villamayor
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+(function(e,t){typeof exports==`object`&&typeof module<`u`?module.exports=t():typeof define==`function`&&define.amd?define([],t):(e=typeof globalThis<`u`?globalThis:e||self,e.Wizard=t())})(this,function(){var e=Object.freeze({root:`wizard`,nav:`wizard-nav`,content:`wizard-content`,buttons:`wizard-buttons`,button:`wizard-btn`,step:`wizard-step`,form:`wizard-form`,next:`next`,prev:`prev`,finish:`finish`,highlight:`highlight-error`}),t=Object.freeze({wz_class:`.wizard`,wz_nav:`.wizard-nav`,wz_ori:`.horizontal`,wz_nav_style:`dots`,wz_content:`.wizard-content`,wz_buttons:`.wizard-buttons`,wz_button:`.wizard-btn`,wz_button_style:`.btn`,wz_step:`.wizard-step`,wz_form:`.wizard-form`,wz_next:`.next`,wz_prev:`.prev`,wz_finish:`.finish`,wz_highlight:`.highlight-error`,bubbles:!0,nav:!0,buttons:!0,highlight:!0,current_step:0,steps:0,highlight_time:1e3,navigation:`all`,next:`Next`,prev:`Prev`,finish:`Submit`,before_step_change:null,highlight_type:{error:`error`,warning:`warning`,success:`success`,info:`info`},i18n:{empty_wz:`No item has been found with which to generate the Wizard.`,empty_nav:`Nav does not exist or is empty.`,empty_content:`Content does not exist or is empty.`,empty_html:`Undefined or null content cannot be added.`,empty_update:`Nothing to update.`,no_nav:`Both the nav and the buttons are disabled, there is no navigation system.`,form_validation:`One or more of the form fields are invalid.`,diff_steps:`Discordance between the steps of nav and content.`,random:`There has been a problem, check the configuration and use of the wizard.`,already_defined:`This item is already defined`,title:`Step`}});function n(e={}){return{...t,...e,highlight_type:{...t.highlight_type,...e.highlight_type},i18n:{...t.i18n,...e.i18n}}}function r(e){if(typeof e!=`string`)return null;let t=e.trim();return!t.startsWith(`.`)||/[\s>+~:#[]/.test(t.slice(1))?null:t.slice(1)}function i(e,t){let n=r(t);n&&e.classList.add(n)}function a(e,t){t.filter(Boolean).forEach(t=>{e.classList.add(t)})}function o(e,t){return t<=0?0:Math.min(Math.max(Number.isFinite(e)?e:0,0),t-1)}function s(e){return e.replace(/\./g,` `).split(` `).map(e=>e.trim()).filter(Boolean)}function c(e,t){e.forEach((e,n)=>{e.classList.toggle(`active`,n===t)})}function l(e){return e instanceof HTMLInputElement&&(e.type===`checkbox`||e.type===`radio`)?e.checked:e.value}function u(e){return e===`true`?!0:e===`false`?!1:null}function d(e){return e instanceof HTMLInputElement&&(e.type===`checkbox`||e.type===`radio`)}function f(e){return e instanceof HTMLInputElement&&e.type===`radio`}function p(e,t){if(d(e)){let n=u(t);return n===null?e.checked&&e.value===t:e.checked===n}return l(e)===t}function m(e,t){return!t&&!e.required?!0:d(e)?e.checked:typeof e.value==`string`&&e.value.trim()===``?!1:typeof e.checkValidity==`function`?e.checkValidity():!0}function h(e,t,n){let r=!1,i=[];return t.forEach(a=>{let o=a.required||a.classList.contains(`required`),s=a.classList.contains(`on-active-required`),c=a.getAttribute(`data-require-if`);if(c){let[t,n=``]=c.split(`:`),r=e.querySelector(`#${t}`);r&&p(r,n)&&(o=!0)}let l=o||s;(l&&f(a)&&a.name?t.some(e=>f(e)&&e.name===a.name&&e.checked):m(a,l))||(r=!0,i.push(a),n.highlight&&n.highlightElement(a,n.highlight_type.error))}),{error:r,target:i}}return class{constructor(e={}){this.options=n(e),Object.assign(this,this.options,{last_step:this.options.current_step,form:!1,locked:!1,pending:!1,locked_step:null,root:null,navEventsBound:!1,buttonEventsBound:!1}),this.last_step=this.options.current_step,this.form=!1,this.locked=!1,this.pending=!1,this.locked_step=null,this.root=null,this.navEventsBound=!1,this.buttonEventsBound=!1}init(){let e=document.querySelector(this.wz_class);if(!e)throw Error(this.i18n.empty_wz);if(e.getAttribute(`data-wz-load`)===`true`)throw Error(this.i18n.already_defined);if(!this.buttons&&!this.nav)throw Error(this.i18n.no_nav);this.root=e,this.form=e.tagName===`FORM`,this.decorateStructuralClasses(e),e.classList.add(this.wz_ori.replace(`.`,``)),this.checkAndPrepare(e),this.bindEvents(),e.style.display=e.classList.contains(`vertical`)?`flex`:`block`,e.setAttribute(`data-wz-load`,`true`),document.dispatchEvent(new CustomEvent(`wz.ready`,{bubbles:this.bubbles,detail:{target:this.wz_class,elem:e}}))}update(){let e=this.getRoot();if(e.getAttribute(`data-wz-load`)!==`true`)throw Error(this.i18n.empty_wz);this.decorateStructuralClasses(e),this.checkAndPrepare(e),e.dispatchEvent(new CustomEvent(`wz.update`,{bubbles:this.bubbles,detail:{target:this.wz_class,elem:e}}))}reset(){let e=this.getRoot();this.setCurrentStep(0),this.syncUI(e),e.dispatchEvent(new Event(`wz.reset`,{bubbles:this.bubbles}))}lock(){this.locked=!0,this.locked_step=this.getCurrentStep()}unlock(){let e=this.getRoot();this.locked=!1,this.locked_step=null,e.dispatchEvent(new Event(`wz.unlock`,{bubbles:this.bubbles}))}updateToForm(){let e=this.getRoot(),t=this.getContentElement(e);if(t.tagName!==`FORM`){var n;let r=(n=t.getAttribute(`class`))==null?``:n,i=t.innerHTML;t.remove();let a=document.createElement(`form`);a.setAttribute(`method`,`POST`),a.setAttribute(`class`,`${r} ${this.wz_form.replace(`.`,``)}`.trim()),a.innerHTML=i,e.appendChild(a),this.form=!0,this.decorateStructuralClasses(e)}}checkForm(){let e=this.getContentElement(this.getRoot()),t=Array.from(e.querySelectorAll(this.wz_step))[this.getCurrentStep()];if(!t)return{error:!1,target:[]};let n=Array.from(t.querySelectorAll(`input, textarea, select`));return n.length===0?{error:!1,target:[]}:h(e,n,{highlight:this.highlight,highlight_type:this.highlight_type,highlightElement:this.highlightElement.bind(this)})}setNav(t){let n=t.querySelector(this.wz_nav);if(n&&this.nav&&(n.remove(),n=null),!n&&this.nav){let n=this.getContentElement(t),r=Array.from(n.querySelectorAll(this.wz_step)),o=document.createElement(`aside`);a(o,[e.nav]),i(o,this.wz_nav),r.forEach((t,n)=>{let r=document.createElement(`div`),s=t.getAttribute(`data-wz-title`)||`${this.i18n.title} ${n+1}`;a(r,[e.step]),i(r,this.wz_step),r.setAttribute(`data-wz-step`,String(n)),r.style.setProperty(`--wizard-step-index`,String(n)),this.navigation===`buttons`&&r.classList.add(`nav-buttons`);let c=document.createElement(`span`);c.classList.add(`dot`),r.appendChild(c);let l=document.createElement(`span`);l.textContent=s,r.appendChild(l),o.appendChild(r)}),t.prepend(o)}}setButtons(){let t=this.getRoot(),n=t.querySelector(this.wz_buttons);if(n&&this.buttons&&(n.remove(),n=null),!n&&this.buttons){let n=document.createElement(`aside`),r=s(this.wz_button_style);a(n,[e.buttons]),i(n,this.wz_buttons);let o=this.createButton(this.prev,[e.button,e.prev,...r],[this.wz_button,this.wz_prev]);this.navigation===`nav`&&(o.style.display=`none`);let c=this.createButton(this.next,[e.button,e.next,...r],[this.wz_button,this.wz_next]);this.navigation===`nav`&&(c.style.display=`none`);let l=this.createButton(this.finish,[e.button,e.finish,...r],[this.wz_button,this.wz_finish]);n.append(o,c,l),t.appendChild(n),this.checkButtons(c,o,l)}}checkButtons(e,t,n){let r=this.getCurrentStep(),i=this.steps-1;t.toggleAttribute(`disabled`,r===0),r===i?(e.setAttribute(`disabled`,`true`),n.style.display=`block`):(n.style.display=`none`,e.removeAttribute(`disabled`))}checkAndPrepare(e){this.setNav(e);let t=this.getContentElement(e),n=Array.from(t.querySelectorAll(this.wz_step));if(n.length===0)throw Error(this.i18n.empty_content);let r=null,i=[];if(this.nav){if(r=e.querySelector(this.wz_nav),!r||(i=Array.from(r.querySelectorAll(this.wz_step)),i.length===0))throw Error(this.i18n.empty_nav);if(i.length!==n.length)throw Error(this.i18n.diff_steps)}this.steps=n.length,this.normalizeCurrentStep(),n.forEach((e,t)=>{e.setAttribute(`data-wz-step`,String(t)),this.nav&&i[t]&&(i[t].setAttribute(`data-wz-step`,String(t)),i[t].style.setProperty(`--wizard-step-index`,String(t)))}),this.nav&&r&&r.classList.add(this.wz_nav_style),this.setButtons(),this.syncUI(e)}async onClick(e){var t,n,i;let a=this.getRoot();if(this.pending)return;if(this.locked&&this.locked_step===this.getCurrentStep()){a.dispatchEvent(new Event(`wz.lock`,{bubbles:this.bubbles}));return}let o=(t=e.closest(this.wz_class))==null?a:t,s=e.classList.contains((n=r(this.wz_button))==null?``:n),c=e.classList.contains((i=r(this.wz_step))==null?``:i),l=e.getAttribute(`data-wz-step`),u=l===null?this.getCurrentStep():parseInt(l,10),d=null;if(s){var f,p;e.classList.contains((f=r(this.wz_prev))==null?``:f)?(--u,d=`prev`):e.classList.contains((p=r(this.wz_next))==null?``:p)&&(u+=1,d=`next`)}let m=u>this.getCurrentStep();if(c&&(m?d=`nav.forward`:u<this.getCurrentStep()&&(d=`nav.backward`)),this.form&&this.navigation!==`buttons`&&m&&u!==this.getCurrentStep()+1&&(u=u>=this.last_step?this.last_step:this.getCurrentStep()+1),this.form){let e=this.checkForm();if(e.error&&(m&&a.dispatchEvent(new CustomEvent(`wz.error`,{bubbles:this.bubbles,detail:{id:`form_validation`,msg:this.i18n.form_validation,target:e.target}})),this.last_step=this.getCurrentStep(),this.getCurrentStep()<u))return}m&&d&&!await this.runBeforeStepChange(u,d,a)||(d&&this.dispatchStepEvent(d,a),this.setCurrentStep(u),this.syncUI(o))}onClickFinish(){let e=this.getRoot();if(this.form){this.checkForm().error||e.dispatchEvent(new Event(`wz.form.submit`,{bubbles:this.bubbles}));return}e.dispatchEvent(new Event(`wz.end`,{bubbles:this.bubbles}))}setCurrentStep(e){this.current_step=this.setStep(e)}getCurrentStep(){return this.current_step}setStep(e){let t=this.steps||this.getTotalSteps(),n=o(Number(e),t);return this.last_step=Math.max(n,o(this.last_step,t)),n}setNavEvent(){this.getRoot().addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`${this.wz_nav} ${this.wz_step}`);t&&(e.preventDefault(),this.onClick(t))}),this.navEventsBound=!0}setBtnEvent(){this.getRoot().addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let t=e.target.closest(`${this.wz_buttons} ${this.wz_button}`);if(t){var n;e.preventDefault(),t.classList.contains((n=r(this.wz_finish))==null?``:n)?this.onClickFinish():this.onClick(t)}}),this.buttonEventsBound=!0}highlightElement(t,n){let i=r(this.wz_highlight),a=[e.highlight,i,n].filter(Boolean);t.classList.add(...a),setTimeout(()=>{t.classList.remove(...a)},this.highlight_time)}bindEvents(){switch(this.navigation){case`all`:case`nav`:this.navEventsBound||this.setNavEvent(),this.buttonEventsBound||this.setBtnEvent();break;case`buttons`:this.buttonEventsBound||this.setBtnEvent();break;default:break}}createButton(e,t,n){let r=document.createElement(`button`);return r.type=`button`,r.textContent=e,a(r,t),n.forEach(e=>i(r,e)),r}decorateStructuralClasses(t){a(t,[e.root]);let n=t.querySelector(this.wz_content);n&&a(n,[e.content]);let r=t.querySelector(this.wz_nav);r&&a(r,[e.nav]),t.querySelectorAll(this.wz_step).forEach(t=>{a(t,[e.step])});let i=t.querySelector(this.wz_buttons);i&&a(i,[e.buttons]),t.querySelectorAll(`${this.wz_buttons} ${this.wz_button}`).forEach(t=>{a(t,[e.button])})}getRoot(){if(this.root&&this.root.isConnected)return this.root;let e=document.querySelector(this.wz_class);if(!e)throw Error(this.i18n.empty_wz);return this.root=e,e}getContentElement(e){let t=e.querySelector(this.wz_content);if(!t)throw Error(this.i18n.empty_content);return t}getTotalSteps(){return this.getContentElement(this.getRoot()).querySelectorAll(this.wz_step).length}getStepElement(e,t=this.getRoot()){var n;let r=this.getContentElement(t);return(n=Array.from(r.querySelectorAll(this.wz_step))[e])==null?null:n}isAsyncStep(e,t=this.getRoot()){let n=this.getStepElement(e,t);return n?[n.getAttribute(`data-wz-async`),n.getAttribute(`data-async-step`)].some(e=>e===``||e===`true`):!1}createBeforeStepChangeContext(e,t,n){let r=this.getCurrentStep();return{wizard:this,currentStep:r,nextStep:e,trigger:t,currentStepElement:this.getStepElement(r,n),nextStepElement:this.getStepElement(e,n),isAsyncStep:this.isAsyncStep(r,n)}}setPendingState(e,t){this.pending=e,t.setAttribute(`data-wz-pending`,String(e))}dispatchStepEvent(e,t){t.dispatchEvent(new Event({next:`wz.btn.next`,prev:`wz.btn.prev`,"nav.forward":`wz.nav.forward`,"nav.backward":`wz.nav.backward`}[e],{bubbles:this.bubbles}))}async runBeforeStepChange(e,t,n){if(!this.before_step_change)return!0;let r=this.createBeforeStepChangeContext(e,t,n),i={target:this.wz_class,elem:n,currentStep:r.currentStep,nextStep:r.nextStep,trigger:r.trigger,isAsyncStep:r.isAsyncStep};this.setPendingState(!0,n),n.dispatchEvent(new CustomEvent(`wz.pending`,{bubbles:this.bubbles,detail:i}));try{let e=await this.before_step_change(r)!==!1;return n.dispatchEvent(new CustomEvent(`wz.pending.done`,{bubbles:this.bubbles,detail:{...i,allowed:e}})),e}catch(e){return n.dispatchEvent(new CustomEvent(`wz.pending.error`,{bubbles:this.bubbles,detail:{...i,error:e}})),!1}finally{this.setPendingState(!1,n)}}normalizeCurrentStep(){let e=this.steps||this.getTotalSteps();this.current_step=o(this.current_step,e),this.last_step=o(this.last_step,e)}syncUI(e){let t=this.getContentElement(e),n=Array.from(t.querySelectorAll(this.wz_step));if(this.normalizeCurrentStep(),c(n,this.getCurrentStep()),this.nav){let t=e.querySelector(this.wz_nav);t&&c(Array.from(t.querySelectorAll(this.wz_step)),this.getCurrentStep())}if(this.buttons){let t=e.querySelector(this.wz_buttons);if(t){let e=t.querySelector(`${this.wz_button}${this.wz_next}`),n=t.querySelector(`${this.wz_button}${this.wz_prev}`),r=t.querySelector(`${this.wz_button}${this.wz_finish}`);e&&n&&r&&this.checkButtons(e,n,r)}}}}});
+</script>
 <script>
 document.getElementById('yr').textContent = new Date().getFullYear();
 
@@ -685,51 +727,145 @@ document.getElementById('yr').textContent = new Date().getFullYear();
 /* Meta Pixel: semnal soft când userul începe să completeze un formular */
 (function(){
   var fired=false;
-  document.querySelectorAll('.lead-form input, .lead-form textarea, .lead-form select').forEach(function(el){
-    el.addEventListener('focus',function(){
-      if(fired) return; fired=true;
-      if(window.fbq){ fbq('trackCustom','LeadFormStart'); }
-    });
-  });
+  function start(e){
+    if(fired || !e.target.closest || !e.target.closest('.lead-form')) return;
+    fired=true;
+    if(window.fbq){ fbq('trackCustom','LeadFormStart'); }
+  }
+  document.addEventListener('focusin',start);
+  document.addEventListener('change',start);
 })();
 
-/* Submit formular → trimite emailul (FormSubmit) + fire Lead + afișează Mulțumim */
-(function(){
-  var overlay=document.getElementById('tyOverlay');
-  function showThanks(label){
-    if(window.fbq){
-      fbq('track','Lead',{content_name:label,content_category:'Folie PDLC',value:0.00,currency:'RON'});
-      fbq('trackCustom','LeadGlazera',{content_name:label,content_category:'Folie PDLC'});
-    }
-    overlay.classList.add('show');
-    document.body.style.overflow='hidden';
-    window.scrollTo(0,0);
+/* Meta Pixel: click pe WhatsApp / telefon = Contact */
+document.addEventListener('click',function(e){
+  var a=e.target.closest && e.target.closest('a[href^="https://wa.me/"],a[href^="tel:"]');
+  if(!a || !window.fbq) return;
+  fbq('track','Contact',{content_name:a.href.indexOf('wa.me')>-1?'WhatsApp':'Telefon',content_category:'Folie PDLC'});
+});
+
+/* Trimite cererea (FormSubmit) + fire Lead + afișează Mulțumim */
+var overlay=document.getElementById('tyOverlay');
+function showThanks(label){
+  if(window.fbq){
+    fbq('track','Lead',{content_name:label,content_category:'Folie PDLC',value:0.00,currency:'RON'});
+    fbq('trackCustom','LeadGlazera',{content_name:label,content_category:'Folie PDLC'});
   }
-  document.querySelectorAll('.lead-form').forEach(function(form){
-    form.addEventListener('submit',function(e){
-      e.preventDefault();
-      var hp=form.querySelector('[name=website]');
-      if(hp && hp.value){ return; }                 /* honeypot: bot → nu trimitem */
-      var lf=form.querySelector('[name=form_type]');
-      var label=(lf&&lf.value)||'Landing Page';
-      var btn=form.querySelector('button[type=submit]');
-      var old=btn?btn.innerHTML:'';
-      if(btn){ btn.disabled=true; btn.innerHTML='Se trimite...'; }
-      fetch(form.action,{
-        method:'POST',
-        body:new FormData(form),
-        headers:{'Accept':'application/json'}
-      })
-      .then(function(r){ return r.json().catch(function(){return {};}); })
-      .then(function(){ form.reset(); showThanks(label); })
-      .catch(function(){ showThanks(label); })   /* chiar dacă răspunsul e blocat, emailul pleacă */
-      .finally(function(){ if(btn){ btn.disabled=false; btn.innerHTML=old; } });
-    });
-  });
+  overlay.classList.add('show');
+  document.body.style.overflow='hidden';
+  window.scrollTo(0,0);
+}
+function sendLead(form,done){
+  var hp=form.querySelector('[name=website]');
+  if(hp && hp.value){ return; }                 /* honeypot: bot → nu trimitem */
+  var lf=form.querySelector('[name=form_type]');
+  var label=(lf&&lf.value)||'Landing Page';
+  var btn=form.querySelector('.wizard-btn.finish, button[type=submit]');
+  var old=btn?btn.innerHTML:'';
+  if(btn){ btn.disabled=true; btn.innerHTML='Se trimite...'; }
+  fetch(form.action,{
+    method:'POST',
+    body:new FormData(form),
+    headers:{'Accept':'application/json'}
+  })
+  .then(function(r){ return r.json().catch(function(){return {};}); })
+  .then(function(){ form.reset(); if(done) done(); showThanks(label); })
+  .catch(function(){ if(done) done(); showThanks(label); })   /* chiar dacă răspunsul e blocat, emailul pleacă */
+  .finally(function(){ if(btn){ btn.disabled=false; btn.innerHTML=old; } });
+}
+(function(){
   var close=document.getElementById('tyClose');
   if(close){ close.addEventListener('click',function(e){
     e.preventDefault(); overlay.classList.remove('show'); document.body.style.overflow='';
   }); }
+})();
+
+/* Configurator ofertă în 3 pași (Wizard-JS) — același șablon pentru hero și final */
+(function(){
+  var tpl=document.getElementById('tplQuiz');
+  var WA='40742236822';
+  function val(form,name){
+    var el=form.querySelector('[name="'+name+'"]:checked');
+    return el?el.value:'';
+  }
+  function activeIndex(form){
+    var steps=form.querySelectorAll('.wizard-content .wizard-step');
+    for(var i=0;i<steps.length;i++){ if(steps[i].classList.contains('active')) return i; }
+    return 0;
+  }
+  function clearErrors(form){
+    form.querySelectorAll('.q-error.show').forEach(function(p){ p.classList.remove('show'); });
+  }
+
+  document.querySelectorAll('.quiz-mount').forEach(function(mount,i){
+    var label=mount.getAttribute('data-form');
+    mount.appendChild(tpl.content.cloneNode(true));
+    var form=mount.querySelector('form');
+    form.id='quiz'+i;
+    form.querySelector('[name=form_type]').value=label;
+    form.querySelector('[name=_subject]').value='Lead nou Glazera ['+label+']';
+
+    var wz=new Wizard({
+      wz_class:'#quiz'+i,
+      wz_nav_style:'progress',
+      navigation:'buttons',
+      wz_button_style:'.btn',
+      highlight:true,
+      prev:'← Înapoi',
+      next:'Continuă →',
+      finish:'Trimite cererea →',
+      i18n:{title:'Pasul',form_validation:'Completează pasul curent ca să continui.'}
+    });
+    wz.init();
+
+    /* un tap pe o opțiune → trecem automat la pasul următor */
+    form.addEventListener('change',function(e){
+      clearErrors(form);
+      if(e.target.type!=='radio') return;
+      setTimeout(function(){
+        var next=form.querySelector('.wizard-btn.next');
+        if(next && !next.disabled) next.click();
+      },220);
+    });
+    form.addEventListener('input',function(){ clearErrors(form); });
+
+    /* Enter în câmpul de telefon trimite cererea */
+    form.addEventListener('keydown',function(e){
+      if(e.key!=='Enter' || e.target.tagName!=='INPUT') return;
+      e.preventDefault();
+      var fin=form.querySelector('.wizard-btn.finish');
+      if(fin && fin.style.display!=='none') fin.click();
+    });
+
+    function showError(){
+      var step=form.querySelectorAll('.wizard-content .wizard-step')[activeIndex(form)];
+      var err=step && step.querySelector('.q-error');
+      if(err) err.classList.add('show');
+    }
+    form.addEventListener('wz.error',showError);
+    /* Wizard-JS nu emite wz.error pe butonul final → verificăm noi telefonul */
+    form.addEventListener('click',function(e){
+      if(e.target.closest && e.target.closest('.wizard-btn.finish') && !form.telefon.checkValidity()) showError();
+    });
+
+    /* Meta Pixel: vedem în ce pas renunță oamenii */
+    form.addEventListener('wz.btn.next',function(){
+      if(window.fbq){ fbq('trackCustom','QuizStep',{form:label,step_completed:activeIndex(form)+1}); }
+    });
+
+    form.addEventListener('wz.form.submit',function(){
+      sendLead(form,function(){ wz.reset(); });
+    });
+
+    /* WhatsApp cu mesaj precompletat din ce a ales deja */
+    var wa=mount.querySelector('.wa-quiz');
+    wa.addEventListener('click',function(){
+      var msg='Bună ziua! Aș dori o ofertă pentru folie inteligentă GLAZERA.';
+      var t=val(form,'tip_proiect'), s=val(form,'suprafata');
+      if(t) msg+=' Spațiu: '+t+'.';
+      if(s) msg+=' Suprafață: '+s+'.';
+      wa.href='https://wa.me/'+WA+'?text='+encodeURIComponent(msg);
+    });
+  });
 })();
 </script>
 </body>
